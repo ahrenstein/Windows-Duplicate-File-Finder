@@ -50,5 +50,5 @@ namespace WindowsDuplicateFileFinder
 
             _VERSION_STRING = AssemblyVersion._NAME + " " + AssemblyVersion._DEBUG + " " + AssemblyVersion._VERSION + " build " + AssemblyVersion._BUILD;
         }
-    } // public class AssemblyVersion
-} // namespace SecurePassword.GeneratorLite
+    }
+}

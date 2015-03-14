@@ -67,5 +67,5 @@ namespace WindowsDuplicateFileFinder
         {
             Close();
         }
-    } // public partial class frmAbout : Form
-} // namespace SecurePassword.GeneratorLite
+    }
+}
