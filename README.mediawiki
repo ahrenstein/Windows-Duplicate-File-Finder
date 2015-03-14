@@ -1,0 +1,12 @@
+=== Windows Duplicate File Finder ===
+The Windows Duplicate File Finder recursively searches the selected directory for duplicate files and saves the results to a text file on the user's desktop.
+
+=== How does it work? ===
+It works by recursively scanning a directory for all files. It them calculates the md5sum of the files, and checks for duplicates. This is done by storing the md5sums in a string based List object array, so it can be looped through to look for comparisons.
+
+=== Known issues ===
+*1) If you select a directory with hidden or system files (sadly such as %HOMEPATH%\Documents) you will get an access denied error
+*2) All string arrays and string List objects are stored in memory, and the program has to iterate through them. The more files you have in the scanned directory, the longer this will take. Sadly I don't have a progress bar or indicator right now. A message dialog box will appear at the start and at the end of the scan.
+
+=== To Do ===
+*1) See repository issues at: https://github.com/ahrenstein/Windows-Duplicate-File-Finder/labels/enhancement
