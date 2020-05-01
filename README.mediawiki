@@ -1,3 +1,6 @@
+=== Archived Project ===
+This project has been archived and is no longer actively maintained.
+
 === Windows Duplicate File Finder ===
 The Windows Duplicate File Finder recursively searches the selected directory for duplicate files and saves the results to a text file on the user's desktop.
 
